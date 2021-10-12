@@ -13,7 +13,7 @@ Email: alphy_p200059csXnitcYacYin [@/X,./Y].</p>
 <HR>
 <h3>Academic Background:</h3>
 <ul>
-<li>Ph.D. Theoretical Computer Science, The Institute of Mathematical Sciences, Chennai 2013.</li>
+<li>Ph.D. Theoretical computer Science(pursuing)(2021-)</li>
 <li>M.Tech. Computer Science and engineering, Karunya University, Coimbatore 2014.</li>
 <li>B.Tech. Computer Science and Engineering, SCMS Scool of Engineering and Technology, MG University, Kerala, 2012.</li>
 </ul>
