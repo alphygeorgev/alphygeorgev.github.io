@@ -18,4 +18,10 @@ Email: alphy_p200059csXnitcYacYin [@/X,./Y].</p>
 <li>B.Tech. Computer Science and Engineering, SCMS Scool of Engineering and Technology, MG University, Kerala, 2012.</li>
 </ul>
 <HR>
+<h3>Ph.D. Guided by:</h3>
+<ul>  
+  <li><a href="https://sheerazuddins.github.io/" target="_blank">Dr. S Sheerazuddin</a></li><br>
+  <li><a href="https://people.cse.nitc.ac.in/muralikrishnan/" target="_blank">Dr. K Muralikrishnan</a></li><br>
+</ul>  
+<HR>
 </body> </html>
