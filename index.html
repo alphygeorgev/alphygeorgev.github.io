@@ -17,11 +17,21 @@
             background-color: #f0f4f8; /* Nice light color */
             color: #333;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             height: 100vh;
             margin: 0;
             padding: 0;
+        }
+        .navbar {
+            background-color: #6f42c1;
+            width: 100%;
+        }
+        .navbar-brand {
+            display: none; /* Hides the brand name on the top left */
+        }
+        .nav-link {
+            color: #fff !important;
         }
         .header {
             text-align: center;
@@ -30,6 +40,7 @@
             background-color: #ffffff; /* White background for contrast */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
             border-radius: 10px;
+            margin-top: 50px; /* Adds space below the navigation bar */
         }
         .header h1 {
             font-size: 3rem;
@@ -56,6 +67,31 @@
     </style>
 </head>
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="research-interests.html">Research Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="papers.html">Papers Published</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Main Content Section -->
     <div class="header">
         <h1>Alphy George</h1>
