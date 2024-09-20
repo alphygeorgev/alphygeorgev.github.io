@@ -28,7 +28,7 @@
             background-color: #6f42c1;
             color: white;
             text-align: center;
-            padding: 50px 20px;
+            padding: 70px 20px;
             background-image: url('https://source.unsplash.com/1600x400/?university,books');
             background-size: cover;
             background-position: center;
@@ -42,25 +42,16 @@
         .header p {
             font-size: 1.2rem;
             font-weight: 300;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .btn-section {
-            margin: 20px;
-            padding: 15px 30px;
-            font-size: 1.2rem;
-            font-weight: 500;
-            color: white;
-            background-color: #6f42c1;
-            border: none;
-            border-radius: 30px;
+        .header a {
+            color: #ffd700;
             text-decoration: none;
-            transition: background-color 0.3s;
+            font-weight: 500;
         }
-        .btn-section:hover {
-            background-color: #5a379c;
-        }
-        .section-links {
-            margin: 40px auto;
-            text-align: center;
+        .header a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -74,19 +65,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about-me">About Me</a>
+                    <a class="nav-link" href="research-interests.html">Research Interests</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#research-interests">Research Interests</a>
+                    <a class="nav-link" href="education.html">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
+                    <a class="nav-link" href="experience.html">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#papers">Papers Published</a>
+                    <a class="nav-link" href="papers.html">Papers Published</a>
                 </li>
             </ul>
         </div>
@@ -95,16 +83,12 @@
     <!-- Header Section -->
     <div class="header">
         <h1>Alphy George</h1>
-        <p>Research Scholar, Department of Computer Science and Engineering<br> National Institute of Technology, Calicut</p>
-    </div>
-
-    <!-- Section Links -->
-    <div class="section-links">
-        <a href="about-me.html" class="btn-section">About Me</a>
-        <a href="research-interests.html" class="btn-section">Research Interests</a>
-        <a href="education.html" class="btn-section">Education</a>
-        <a href="experience.html" class="btn-section">Experience</a>
-        <a href="papers.html" class="btn-section">Papers Published</a>
+        <p>
+            I am a Ph.D. scholar under the guidance of 
+            <a href="https://sheerazuddins.github.io/" target="_blank">Dr. S Sheerazuddin</a> and 
+            <a href="https://people.cse.nitc.ac.in/muralikrishnan/" target="_blank">Dr. K Muralikrishnan</a>.
+            I am working in the area of formal verification, specifically in the verification of multi-agent systems and verification of deep neural networks.
+        </p>
     </div>
 
     <!-- Bootstrap JS and dependencies -->
